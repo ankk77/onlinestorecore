@@ -106,9 +106,20 @@ a {
     opacity: 0.7;
 }
 
-.navigation__icon-menu {
+.navigation__item-button {
     display: none;
     cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.navigation__item-button:hover {
+    opacity: 0.7;
+}
+
+.navigation__icon-menu {
+    width: 37px;
+    height: 37px;
+    display: block;
 }
 
 .header__input-container {
@@ -171,10 +182,8 @@ a {
         display: none;
     }
 
-    .navigation__icon-menu {
-        display: inline;
-        width: 37px;
-        height: 37px;
+    .navigation__item-button {
+        display: inline-block;
     }
 }
 
