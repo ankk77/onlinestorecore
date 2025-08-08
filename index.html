@@ -46,10 +46,17 @@
                         </a>
                     </li>
                 </ul>
-                <button class="navigation__item-button">
-                    <img src="./images/menu.svg" alt="Иконка Меню" class="navigation__icon-menu">
-                </button>
             </nav>
+            
+            <div class="mobile-input">
+                <div class="mobile__input-container">
+                    <input type="text" class="mobile__input-search">
+                    <button class="mobile__input-button">
+                        <img src="./images/search.svg" alt="Иконка поиска" class="mobile__input-button-image">
+                    </button>
+                </div>
+            </div>
+            
         </div>
     </header>
     <div class="container">
@@ -58,5 +65,35 @@
         <div class="mock"></div>
         <div class="mock"></div>
     </div>
+
+    <!-- Фиксированное нижнее меню для мобильных -->
+<div class="mobile-bottom-nav">
+    <ul class="mobile-bottom-nav__list">
+        <li class="mobile-bottom-nav__item">
+            <a href="#" class="mobile-bottom-nav__link">
+                <img src="./images/user.svg" alt="Войти" class="mobile-bottom-nav__icon">
+                <span class="mobile-bottom-nav__text">Войти</span>
+            </a>
+        </li>
+        <li class="mobile-bottom-nav__item">
+            <a href="#" class="mobile-bottom-nav__link">
+                <img src="./images/box.svg" alt="Заказы" class="mobile-bottom-nav__icon">
+                <span class="mobile-bottom-nav__text">Заказы</span>
+            </a>
+        </li>
+        <li class="mobile-bottom-nav__item">
+            <a href="#" class="mobile-bottom-nav__link">
+                <img src="./images/like.svg" alt="Избранное" class="mobile-bottom-nav__icon">
+                <span class="mobile-bottom-nav__text">Избранное</span>
+            </a>
+        </li>
+        <li class="mobile-bottom-nav__item">
+            <a href="#" class="mobile-bottom-nav__link">
+                <img src="./images/cart.svg" alt="Корзина" class="mobile-bottom-nav__icon">
+                <span class="mobile-bottom-nav__text">Корзина</span>
+            </a>
+        </li>
+    </ul>
+</div>
 </body>
 </html>
