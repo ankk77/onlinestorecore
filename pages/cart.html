@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Муравейник App</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/auth.css">
+    <link rel="stylesheet" href="../css/orders.css">
 </head>
 <body>
     <header class="header">
@@ -22,7 +22,7 @@
                 </div>
                 <ul class="navigation__list">
                     <li class="navigation__item">
-                        <a href="#" class="navigation__item-link">
+                        <a href="../pages/auth.html" class="navigation__item-link">
                             <img src="../images/user.svg" alt="Иконка Войти" class="navigation__item-image">
                             <span>Войти</span>
                         </a>
@@ -40,7 +40,7 @@
                         </a>
                     </li>
                     <li class="navigation__item">
-                        <a href="../pages/cart.html" class="navigation__item-link">
+                        <a href="#" class="navigation__item-link">
                             <img src="../images/cart.svg" alt="Иконка Корзина" class="navigation__item-image">
                             <span>Корзина</span>
                         </a>
@@ -52,28 +52,13 @@
     </header>
     <main class="main">
         <div class="container">
-            <section class="auth">
+            <section class="orders">
                 <div class="card">
-                    <h1 class="card__title">Вход в аккаунт</h1>
-
-                    <div class="card-input__container">
-                        <div class="card-input__login">
-                            <label for="email">Почта</label>
-                            <input type="email" id="email">
-                        </div>
-                        <div class="card-input__password">
-                            <label for="password">Пароль</label>
-                            <input type="password" id="password">
-                        </div>
-                    </div>
-
-                    <div class="card-button__container">
-                        <button class="card-button__auth">
-                            Войти
-                        </button>
-                        <button class="card-button__reg">
-                            Зарегистрироваться
-                        </button>
+                    <h1 class="card__title">Корзина</h1>
+                    
+                    <div class="card__container">
+                        <img src="../images/cartclose2.svg" alt="Иконка пустого избранного">
+                        <p class="card__text">У вас пока что нет товаров в корзине</p>
                     </div>
                 </div>
             </section>
@@ -84,7 +69,7 @@
     <div class="mobile-bottom-nav">
         <ul class="mobile-bottom-nav__list">
             <li class="mobile-bottom-nav__item">
-                <a href="#" class="mobile-bottom-nav__link">
+                <a href="../pages/auth.html" class="mobile-bottom-nav__link">
                     <img src="../images/user.svg" alt="Войти" class="mobile-bottom-nav__icon">
                     <span class="mobile-bottom-nav__text">Войти</span>
                 </a>
@@ -102,7 +87,7 @@
                 </a>
             </li>
             <li class="mobile-bottom-nav__item">
-                <a href="../pages/cart.html" class="mobile-bottom-nav__link">
+                <a href="#" class="mobile-bottom-nav__link">
                     <img src="../images/cart.svg" alt="Корзина" class="mobile-bottom-nav__icon">
                     <span class="mobile-bottom-nav__text">Корзина</span>
                 </a>
