@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Муравейник App</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/auth.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
+                <a href="../index.html" class="logo-link" onclick="handleLogoClick(event)">
+                    <img src="../images/logo.svg" alt="Логотип" class="logo-img">
+                </a>
+                <div class="header__input-container">
+                    <input type="text" class="header__input-search">
+                    <button class="header__input-button">
+                        <img src="../images/search.svg" alt="Иконка поиска" class="header__input-button-image">
+                    </button>
+                </div>
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__item-link">
+                            <img src="../images/user.svg" alt="Иконка Войти" class="navigation__item-image">
+                            <span>Войти</span>
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__item-link">
+                            <img src="../images/box.svg" alt="Иконка Заказы" class="navigation__item-image">
+                            <span>Заказы</span>
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__item-link">
+                            <img src="../images/like.svg" alt="Иконка Избранное" class="navigation__item-image">
+                            <span>Избранное</span>
+                        </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__item-link">
+                            <img src="../images/cart.svg" alt="Иконка Корзина" class="navigation__item-image">
+                            <span>Корзина</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="auth">
+                <div class="card">
+                    <h1 class="card__title">Вход в аккаунт</h1>
+
+                    <div class="card-input__container">
+                        <div class="card-input__login">
+                            <label for="email">Почта</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="card-input__password">
+                            <label for="password">Пароль</label>
+                            <input type="password" id="password">
+                        </div>
+                    </div>
+
+                    <div class="card-button__container">
+                        <button class="card-button__auth">
+                            Войти
+                        </button>
+                        <button class="card-button__reg">
+                            Зарегистрироваться
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Фиксированное нижнее меню для мобильных -->
+    <div class="mobile-bottom-nav">
+        <ul class="mobile-bottom-nav__list">
+            <li class="mobile-bottom-nav__item">
+                <a href="#" class="mobile-bottom-nav__link">
+                    <img src="../images/user.svg" alt="Войти" class="mobile-bottom-nav__icon">
+                    <span class="mobile-bottom-nav__text">Войти</span>
+                </a>
+            </li>
+            <li class="mobile-bottom-nav__item">
+                <a href="#" class="mobile-bottom-nav__link">
+                    <img src="../images/box.svg" alt="Заказы" class="mobile-bottom-nav__icon">
+                    <span class="mobile-bottom-nav__text">Заказы</span>
+                </a>
+            </li>
+            <li class="mobile-bottom-nav__item">
+                <a href="#" class="mobile-bottom-nav__link">
+                    <img src="../images/like.svg" alt="Избранное" class="mobile-bottom-nav__icon">
+                    <span class="mobile-bottom-nav__text">Избранное</span>
+                </a>
+            </li>
+            <li class="mobile-bottom-nav__item">
+                <a href="#" class="mobile-bottom-nav__link">
+                    <img src="../images/cart.svg" alt="Корзина" class="mobile-bottom-nav__icon">
+                    <span class="mobile-bottom-nav__text">Корзина</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
