@@ -46,6 +46,7 @@
 
 .card-button__reg {
     background-color: var(--color-accent);
+    color: var(--color-white);
 }
 
 @media (max-width: 695px) {
